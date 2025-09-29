@@ -1,3 +1,11 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+app_name = os.getenv("APP_NAME")
+db_url = os.getenv("DATABASE_URL")
+
 import streamlit as st
 from ui import home, dashboard
 
