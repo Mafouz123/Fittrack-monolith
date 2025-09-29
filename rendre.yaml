@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: fittravk-monolith
+    name: fittrack-monolith
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run main.py
